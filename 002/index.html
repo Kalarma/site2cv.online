@@ -9,7 +9,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
         body { font-family: 'Outfit', sans-serif; }
-        .sales-blue { background-color: #1e3a8a; } /* Bleu Navy Business */
         .sales-gradient { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
     </style>
 </head>
@@ -21,8 +20,8 @@
 
     <header class="sales-gradient text-white pt-20 pb-24 px-6">
         <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
-            <div class="w-40 h-40 rounded-2xl overflow-hidden border-4 border-white/20 rotate-3 shadow-2xl">
-                <img src="https://via.placeholder.com/400x400/1e3a8a/ffffff?text=Dylan+Region" alt="Dylan Region" class="w-full h-full object-cover">
+            <div class="w-40 h-40 rounded-2xl overflow-hidden border-4 border-white shadow-2xl">
+                <img src="https://media.licdn.com/dms/image/v2/D4D35AQHMDsWdMzKAYg/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1714050390653?e=1774123200&v=beta&t=wiFazEWNjAPutzw1zANqSi4J6bLJWlSRIk10Sm39JpI" alt="Dylan Region" class="w-full h-full object-cover">
             </div>
             <div class="text-center md:text-left flex-1">
                 <span class="bg-white/20 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">Profil Commercial</span>
@@ -40,38 +39,32 @@
         <div class="grid md:grid-cols-3 gap-8">
             
             <div class="space-y-6">
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-center md:text-left">
                     <h3 class="font-bold text-lg mb-4 border-b pb-2 text-blue-900">Contact</h3>
                     <div class="space-y-4">
-                        <a href="#" class="flex items-center gap-3 text-slate-600 hover:text-blue-600 transition">
-                            <div class="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 text-sm">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </div>
-                            Voir le profil
+                        <a href="https://www.linkedin.com/in/dylan-region" class="flex items-center gap-3 text-slate-600 hover:text-blue-600 transition">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="w-6 h-6" alt="LinkedIn">
+                            Profil LinkedIn
                         </a>
                         <div class="flex items-center gap-3 text-slate-600">
                             <div class="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 text-sm">
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
-                            Via Messagerie
+                            Contact via LinkedIn
                         </div>
                     </div>
                 </div>
 
                 <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
-                    <h3 class="font-bold text-lg mb-4 border-b pb-2 text-blue-900">Points forts</h3>
+                    <h3 class="font-bold text-lg mb-4 border-b pb-2 text-blue-900">Atouts Mobilité</h3>
                     <ul class="space-y-3">
                         <li class="flex items-start gap-2 text-sm text-slate-600">
                             <i class="fa-solid fa-circle-check text-green-500 mt-1"></i>
-                            Expérience chez BNP Paribas (Rigueur)
+                            Île-de-France (75, 93)
                         </li>
                         <li class="flex items-start gap-2 text-sm text-slate-600">
                             <i class="fa-solid fa-circle-check text-green-500 mt-1"></i>
-                            Sens du contact client
-                        </li>
-                        <li class="flex items-start gap-2 text-sm text-slate-600">
-                            <i class="fa-solid fa-circle-check text-green-500 mt-1"></i>
-                            Culture du résultat
+                            Disponible dès maintenant
                         </li>
                     </ul>
                 </div>
@@ -81,23 +74,25 @@
                 
                 <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
                     <h2 class="text-2xl font-bold mb-8 flex items-center gap-3 text-blue-900">
-                        <i class="fa-solid fa-briefcase text-blue-600"></i> Expériences
+                        <i class="fa-solid fa-briefcase text-blue-600"></i> Parcours Professionnel
                     </h2>
 
                     <div class="space-y-10">
-                        <div class="flex gap-6">
-                            <div class="hidden sm:block w-12 h-12 bg-slate-100 rounded-lg flex-shrink-0 flex items-center justify-center font-bold text-slate-400">BNP</div>
+                        <div class="flex gap-6 items-start">
+                            <img src="https://media.licdn.com/dms/image/v2/C4E0BAQGaPfduOoKCJA/company-logo_100_100/company-logo_100_100/0/1669711365932/bnp_paribas_logo?e=1775088000&v=beta&t=sizns_uSUjFfGiQNutFR98fL7vRSKcnv5CueWjf3sBQ" 
+                                 class="w-14 h-14 rounded shadow-sm flex-shrink-0" alt="BNP">
                             <div>
                                 <h4 class="text-xl font-bold">Agent d'accueil</h4>
                                 <p class="text-blue-600 font-semibold">BNP Paribas · CDD</p>
-                                <p class="text-slate-500 text-sm mt-2 leading-relaxed">
-                                    Gestion de l'accueil client, orientation et conseil de premier niveau au sein d'une institution financière majeure.
+                                <p class="text-slate-500 text-sm mt-2 leading-relaxed italic">
+                                    Développement de la posture professionnelle et de la relation client au sein d'un environnement exigeant.
                                 </p>
                             </div>
                         </div>
 
-                        <div class="flex gap-6">
-                            <div class="hidden sm:block w-12 h-12 bg-slate-100 rounded-lg flex-shrink-0 flex items-center justify-center font-bold text-slate-400">SUP</div>
+                        <div class="flex gap-6 items-start">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D0BAQENFK5n2UMx4Q/company-logo_100_100/company-logo_100_100/0/1666261986486/sup_de_vente_logo?e=1775088000&v=beta&t=SNgscbaO_KrwRj0--LaX1_MtI9NGRPhYi5uOQnFjk-U" 
+                                 class="w-14 h-14 rounded shadow-sm flex-shrink-0" alt="Sup de V">
                             <div>
                                 <h4 class="text-xl font-bold">Étudiant en alternance</h4>
                                 <p class="text-blue-600 font-semibold">SUP de V</p>
@@ -105,8 +100,9 @@
                             </div>
                         </div>
 
-                        <div class="flex gap-6">
-                            <div class="hidden sm:block w-12 h-12 bg-slate-100 rounded-lg flex-shrink-0 flex items-center justify-center font-bold text-slate-400">P8</div>
+                        <div class="flex gap-6 items-start">
+                            <img src="https://media.licdn.com/dms/image/v2/D4E0BAQGcoXt2N_TomA/company-logo_100_100/company-logo_100_100/0/1732631805496/universit_vincennes_saint_denis_paris_viii__logo?e=1775088000&v=beta&t=xHkV4nN_pj02Oi_IGZ-ZY0Xj-XinBD1WoxNdwr079Ro" 
+                                 class="w-14 h-14 rounded shadow-sm flex-shrink-0" alt="Paris 8">
                             <div>
                                 <h4 class="text-xl font-bold">Cursus Universitaire</h4>
                                 <p class="text-blue-600 font-semibold">Université Paris 8</p>
@@ -116,12 +112,12 @@
                     </div>
                 </div>
 
-                <div class="bg-blue-900 text-white p-10 rounded-2xl text-center">
-                    <h3 class="text-2xl font-bold mb-4">Besoin d'un alternant motivé ?</h3>
-                    <p class="text-blue-200 mb-8 max-w-md mx-auto italic">"Ma polyvalence acquise entre le secteur bancaire et mes études me permet d'être opérationnel rapidement."</p>
-                    <button class="bg-white text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-blue-50 transition">
-                        Contacter Dylan
-                    </button>
+                <div class="bg-blue-900 text-white p-10 rounded-2xl text-center shadow-xl">
+                    <h3 class="text-2xl font-bold mb-4">Prêt à renforcer votre force de vente ?</h3>
+                    <p class="text-blue-200 mb-8 max-w-md mx-auto">Dylan est à la recherche d'une équipe dynamique pour mettre ses compétences au service de vos clients.</p>
+                    <a href="https://www.linkedin.com/in/dylan-region" target="_blank" class="bg-white text-blue-900 px-8 py-4 rounded-full font-bold hover:scale-105 transition inline-block">
+                        Discuter avec Dylan
+                    </a>
                 </div>
 
             </div>
